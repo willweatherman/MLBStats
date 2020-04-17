@@ -2,7 +2,7 @@ package com.example.accessingmongodbdatarest;
 
 import org.springframework.data.annotation.Id;
 
-public class mlb_stats {
+public class mlbStats {
 
     @Id private String id;
 
