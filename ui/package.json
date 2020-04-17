@@ -21,6 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build; rm -r ../public; mv ./build ../public",
+    "populateDB": "imongoimport --jsonArray -d test -c mlb_stats ../team_stats.json",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

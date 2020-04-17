@@ -12,7 +12,7 @@ export async function getAllTeams() {
     }).then((data) => {
         const arr = range(0, parseInt(data.page.totalPages))
         return Promise.all(arr.map(pageNum => {
-            getTeam(pageNum)
+            return getTeam(pageNum)
         }))
     })
 }

@@ -6,9 +6,6 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import store from './store.js'
 import { BrowserRouter } from "react-router-dom";
-import {getAllTeams} from "./api";
-
-getAllTeams()
 
 
 ReactDOM.render(

@@ -82,7 +82,7 @@ let store = createStore(todos, {
     form_avg: 0,
     form_wins: 0,
     form_losses: 0
-})
+}, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
 
 

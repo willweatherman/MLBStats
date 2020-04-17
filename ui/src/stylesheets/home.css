@@ -106,3 +106,10 @@ ul {
     height:100%;
     margin: auto;
 }
+
+.EmptyList {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+}

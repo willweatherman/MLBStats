@@ -89,3 +89,7 @@ ul {
 .invalid-feedback {
     display: block!important;
 }
+
+.hidden {
+    display: none!important;
+}
