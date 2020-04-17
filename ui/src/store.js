@@ -10,7 +10,7 @@ function todos(state = {}, action) {
         case 'ADD_MLB_STATS':
             return {
                 ...state,
-                mlb_stats: state.mlb_stats.concat(action.state.mlb_stats),
+                mlb_stats: state.mlb_stats.concat(action.state.mlbStats),
             }
         case 'CHANGE_SORT':
             return {

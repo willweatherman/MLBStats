@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### `npm run populateDB`
+
+populates the DB with MLB Team Statistics
+
 ### `./mvnw spring-boot:run`
 
 Starts up the back end and serves the file in the public folder.
