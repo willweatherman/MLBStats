@@ -5,9 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 
-### `npm run populateDB`
+### `bash ./populateDB.bash`
 
-populates the DB with MLB Team Statistics
+Populates the DB with MLB Team Statistics
 
 ### `./mvnw spring-boot:run`
 

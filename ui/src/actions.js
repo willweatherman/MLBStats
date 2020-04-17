@@ -25,4 +25,5 @@ export function changeSort(i) {
 export function changeList(newList, sortedState) {
     store.dispatch({type: "CHANGE_LIST", text: newList})
     store.dispatch({type: "UPDATE_FILTER_SECTION", text: Object.entries(sortedState[0].stats[newList.toLowerCase()])[0][0]})
+    store.dispatch({type: "CHANGE_SORT", sort_name: Object.entries(sortedState[0].stats[newList.toLowerCase()])[0][0]})
 }

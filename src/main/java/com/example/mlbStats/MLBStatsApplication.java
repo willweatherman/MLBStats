@@ -1,13 +1,13 @@
-package com.example.accessingmongodbdatarest;
+package com.example.mlbStats;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AccessingMongodbDataRestApplication {
+public class MLBStatsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AccessingMongodbDataRestApplication.class, args);
+		SpringApplication.run(MLBStatsApplication.class, args);
 	}
 
 }

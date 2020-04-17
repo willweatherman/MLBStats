@@ -1,4 +1,4 @@
-package com.example.accessingmongodbdatarest;
+package com.example.mlbStats;
 
 import org.springframework.data.annotation.Id;
 import java.lang.Integer;

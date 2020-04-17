@@ -65,7 +65,7 @@ ul {
 }
 
 .ColumnContainer {
-    display: flex;
+    display: block!important;
     width: 100%;
 }
 
@@ -111,5 +111,18 @@ ul {
     margin: auto;
     justify-content: center;
     text-align: center;
-    width: 80vw;
+    width: 100%;
+}
+
+.list-group-item {
+    display: flex!important;
+    padding: 0!important;
+}
+
+.list-group-item-item {
+    text-align: center;
+    line-height: 5vh;
+    white-space: nowrap;
+    height: 5vh;
+    width: 100%;
 }
