@@ -8,6 +8,7 @@ public class Team {
 
     private String city;
     private String name;
+    private String division;
     private String abbreviation;
     private String officialLogoImageSrc;
 
@@ -27,6 +28,15 @@ public class Team {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getDivision() {
+        return division;
+    }
+
+    public void setDivision(String division) {
+        this.division = division;
+    }
+
 
 
     public String getAbbreviation() {

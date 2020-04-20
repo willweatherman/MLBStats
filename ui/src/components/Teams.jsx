@@ -26,7 +26,7 @@ function Teams(props) {
                     {(props.sortedStats.length > 0) ? Object.entries(props.sortedStats[0].stats[props.currentList.toLowerCase()])[0][0] : null}
                 </button>
                 <button onClick={() => {changeSort((props.sortedStats.length > 0) ? Object.entries(props.sortedStats[0].stats[props.currentList.toLowerCase()])[1][0] : null)}} className={"list-group-item-item contentButton " + (props.sortName === ((props.sortedStats.length > 0) ? Object.entries(props.sortedStats[0].stats[props.currentList.toLowerCase()])[1][0] : null) ? "active": "")}>
-                    {(props.sortedStats.length > 0) ? Object.entries(props.sortedStats[1].stats[props.currentList.toLowerCase()])[1][0] : null}
+                    {(props.sortedStats.length > 0) ? Object.entries(props.sortedStats[0].stats[props.currentList.toLowerCase()])[1][0] : null}
                 </button>
                 <button onClick={() => {changeSort((props.sortedStats.length > 0) ? Object.entries(props.sortedStats[0].stats[props.currentList.toLowerCase()])[2][0] : null)}} className={"list-group-item-item contentButton " + (props.sortName === ((props.sortedStats.length > 0) ? Object.entries(props.sortedStats[0].stats[props.currentList.toLowerCase()])[2][0] : null) ? "active": "")}>
                     {(props.sortedStats.length > 0) ? Object.entries(props.sortedStats[0].stats[props.currentList.toLowerCase()])[2][0] : null}
@@ -64,27 +64,6 @@ function Teams(props) {
                     </li>
                 )
             })}
-            {/*{(props.sortedStats.length > 0) ? genFields(props.sortedStats, props.currentList).stats.map(i => {*/}
-            {/*let counter = 1*/}
-            {/*return (*/}
-            {/*<div key={random()} className="Column">*/}
-            {/*    <button onClick={() => {changeSort(i)}} className={"contentButton " + (props.sortName === i ? "active": "")}>*/}
-            {/*        {i}*/}
-            {/*    </button>*/}
-            {/*    {*/}
-            {/*        genFields(props.sortedStats, props.currentList).info.map(y => {*/}
-            {/*            counter++*/}
-            {/*            return (*/}
-            {/*                <div key={random()} className="Field" style={(counter % 2 === 0 ? {backgroundColor: "gray"} : {} )}>*/}
-            {/*
-            {/*                </div>*/}
-            {/*            )*/}
-            {/*        })*/}
-            {/*    }*/}
-            {/*    </div>*/}
-            {/*    )*/}
-            {/*}) : )}*/}
-            {/*{(props.sortedStats.length > 0) ? <TrashCanContainer sortedStats={props.sortedStats}></TrashCanContainer> : null}*/}
         </ul>
     )
 }

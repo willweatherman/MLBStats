@@ -17,6 +17,16 @@ export async function getAllTeams() {
     })
 }
 
+export async function getTeamByDivision(division) {
+    if (division === "") return getAllTeams()
+    await store.dispatch({type: "CLEAR_MLB_STATS"})
+    return fetch('/Teams/search/findByTeamDivision?teamDivision=' + division).then((response) => {
+        return response.json();
+    }).then((data) => {
+        return store.dispatch({type: "ADD_MLB_STATS", state: data._embedded})
+    })
+}
+
 async function getTeam(pagenum = 0) {
     return fetch('/Teams?page='+ pagenum).then((response) => {
         return response.json();

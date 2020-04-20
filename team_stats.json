@@ -4,6 +4,7 @@
                 "id": 140,
                 "city": "Arizona",
                 "name": "Diamondbacks",
+                "division": "NL West",
                 "abbreviation": "ARI",
                 "homeVenue": {
                     "id": 108,
@@ -170,6 +171,7 @@
                 "id": 130,
                 "city": "Atlanta",
                 "name": "Braves",
+                "division": "NL East",
                 "abbreviation": "ATL",
                 "homeVenue": {
                     "id": 136,
@@ -334,6 +336,7 @@
                 "id": 111,
                 "city": "Baltimore",
                 "name": "Orioles",
+                "division": "AL East",
                 "abbreviation": "BAL",
                 "homeVenue": {
                     "id": 123,
@@ -497,6 +500,8 @@
                 "id": 113,
                 "city": "Boston",
                 "name": "Red Sox",
+                "division": "AL East",
+                "division": "American League",
                 "abbreviation": "BOS",
                 "homeVenue": {
                     "id": 114,
@@ -660,6 +665,7 @@
                 "id": 131,
                 "city": "Chicago",
                 "name": "Cubs",
+                "division": "NL Central",
                 "abbreviation": "CHC",
                 "homeVenue": {
                     "id": 133,
@@ -823,6 +829,7 @@
                 "id": 119,
                 "city": "Chicago",
                 "name": "White Sox",
+                "division": "AL Central",
                 "abbreviation": "CWS",
                 "homeVenue": {
                     "id": 132,
@@ -986,6 +993,7 @@
                 "id": 135,
                 "city": "Cincinnati",
                 "name": "Reds",
+                "division": "NL Central",
                 "abbreviation": "CIN",
                 "homeVenue": {
                     "id": 116,
@@ -1149,6 +1157,7 @@
                 "id": 116,
                 "city": "Cleveland",
                 "name": "Indians",
+                "division": "AL Central",
                 "abbreviation": "CLE",
                 "homeVenue": {
                     "id": 126,
@@ -1312,6 +1321,7 @@
                 "id": 138,
                 "city": "Colorado",
                 "name": "Rockies",
+                "division": "NL West",
                 "abbreviation": "COL",
                 "homeVenue": {
                     "id": 112,
@@ -1476,6 +1486,7 @@
                 "id": 117,
                 "city": "Detroit",
                 "name": "Tigers",
+                "division": "AL Central",
                 "abbreviation": "DET",
                 "homeVenue": {
                     "id": 111,
@@ -1639,6 +1650,7 @@
                 "id": 122,
                 "city": "Houston",
                 "name": "Astros",
+                "division": "AL West",
                 "abbreviation": "HOU",
                 "homeVenue": {
                     "id": 120,
@@ -1803,6 +1815,7 @@
                 "id": 118,
                 "city": "Kansas City",
                 "name": "Royals",
+                "division": "AL Central",
                 "abbreviation": "KC",
                 "homeVenue": {
                     "id": 117,
@@ -1966,6 +1979,7 @@
                 "id": 124,
                 "city": "Los Angeles",
                 "name": "Angels",
+                "division": "AL West",
                 "abbreviation": "LAA",
                 "homeVenue": {
                     "id": 105,
@@ -2132,6 +2146,7 @@
                 "id": 137,
                 "city": "Los Angeles",
                 "name": "Dodgers",
+                "division": "NL West",
                 "abbreviation": "LAD",
                 "homeVenue": {
                     "id": 113,
@@ -2296,6 +2311,7 @@
                 "id": 128,
                 "city": "Miami",
                 "name": "Marlins",
+                "division": "NL East",
                 "abbreviation": "MIA",
                 "homeVenue": {
                     "id": 118,
@@ -2461,6 +2477,7 @@
                 "id": 134,
                 "city": "Milwaukee",
                 "name": "Brewers",
+                "division": "NL Central",
                 "abbreviation": "MIL",
                 "homeVenue": {
                     "id": 119,
@@ -2624,6 +2641,7 @@
                 "id": 120,
                 "city": "Minnesota",
                 "name": "Twins",
+                "division": "AL Central",
                 "abbreviation": "MIN",
                 "homeVenue": {
                     "id": 129,
@@ -2788,6 +2806,7 @@
                 "id": 127,
                 "city": "New York",
                 "name": "Mets",
+                "division": "NL East",
                 "abbreviation": "NYM",
                 "homeVenue": {
                     "id": 109,
@@ -2951,6 +2970,7 @@
                 "id": 114,
                 "city": "New York",
                 "name": "Yankees",
+                "division": "AL East",
                 "abbreviation": "NYY",
                 "homeVenue": {
                     "id": 134,
@@ -3115,6 +3135,7 @@
                 "id": 125,
                 "city": "Oakland",
                 "name": "Athletics",
+                "division": "AL West",
                 "abbreviation": "OAK",
                 "homeVenue": {
                     "id": 64,
@@ -3279,6 +3300,7 @@
                 "id": 129,
                 "city": "Philadelphia",
                 "name": "Phillies",
+                "division": "NL East",
                 "abbreviation": "PHI",
                 "homeVenue": {
                     "id": 110,
@@ -3442,6 +3464,7 @@
                 "id": 132,
                 "city": "Pittsburgh",
                 "name": "Pirates",
+                "division": "NL Central",
                 "abbreviation": "PIT",
                 "homeVenue": {
                     "id": 125,
@@ -3605,6 +3628,7 @@
                 "id": 139,
                 "city": "San Diego",
                 "name": "Padres",
+                "division": "NL West",
                 "abbreviation": "SD",
                 "homeVenue": {
                     "id": 124,
@@ -3768,6 +3792,7 @@
                 "id": 136,
                 "city": "San Francisco",
                 "name": "Giants",
+                "division": "NL West",
                 "abbreviation": "SF",
                 "homeVenue": {
                     "id": 106,
@@ -3933,6 +3958,7 @@
                 "id": 123,
                 "city": "Seattle",
                 "name": "Mariners",
+                "division": "AL West",
                 "abbreviation": "SEA",
                 "homeVenue": {
                     "id": 128,
@@ -4098,6 +4124,7 @@
                 "id": 133,
                 "city": "St. Louis",
                 "name": "Cardinals",
+                "division": "NL Central",
                 "abbreviation": "STL",
                 "homeVenue": {
                     "id": 107,
@@ -4262,6 +4289,7 @@
                 "id": 115,
                 "city": "Tampa Bay",
                 "name": "Rays",
+                "division": "AL East",
                 "abbreviation": "TB",
                 "homeVenue": {
                     "id": 130,
@@ -4426,6 +4454,7 @@
                 "id": 121,
                 "city": "Texas",
                 "name": "Rangers",
+                "division": "AL West",
                 "abbreviation": "TEX",
                 "homeVenue": {
                     "id": 115,
@@ -4589,6 +4618,7 @@
                 "id": 112,
                 "city": "Toronto",
                 "name": "Blue Jays",
+                "division": "AL East",
                 "abbreviation": "TOR",
                 "homeVenue": {
                     "id": 127,
@@ -4753,6 +4783,7 @@
                 "id": 126,
                 "city": "Washington",
                 "name": "Nationals",
+                "division": "NL East",
                 "abbreviation": "WAS",
                 "homeVenue": {
                     "id": 121,

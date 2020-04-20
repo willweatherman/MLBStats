@@ -6,6 +6,7 @@ import { changeList, searchSection, searchBar, filterBar, changeOperator} from '
 import TeamsContainer from "./Teams";
 import { filterStats, sortStats } from '../utils'
 import OptionsContainer from "./Options";
+import {getTeamByDivision} from "../api";
 
 
 
@@ -15,9 +16,7 @@ function Home(props) {
         const sortedStats = sortStats(filteredStats, props.sortName, props.currentList)
         return (
             <div className="home">
-                <div className="header">
-
-               </div>
+                <div className="header"></div>
                 <button onClick={() => {history.push('/CreateTeam')}} className="formButton">Create Team</button>
                 <div className="customContainer">
                     <div className="contentHeader">
@@ -70,8 +69,30 @@ function Home(props) {
                                 </div>
                             </div>
                         </form>
+                        <form className="Filter">
+                            <div className="mx-auto form-row align-items-center">
+                                <div className="col-lg-12 my-4">
+                                    <div className="input-group mr-lg-12">
+                                            <input className="form-control" value="Filter by division:" readOnly></input>
+                                        <div className="input-group-append">
+                                            <div className="input-group-text">
+                                                <select onChange={(e) => {getTeamByDivision(e.target.value)}} className="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option value="">All</option>
+                                                    <option value="AL West">AL West</option>
+                                                    <option value="AL Central">Al Central</option>
+                                                    <option value="AL East">AL East</option>
+                                                    <option value="NL West">NL West</option>
+                                                    <option value="NL Central">NL Central</option>
+                                                    <option value="NL East">NL East</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <TeamsContainer sortedStats={sortedStats} currentList={props.currentList} sortName={props.sortName}></TeamsContainer>
+                    {(sortedStats.length > 0) ? (<TeamsContainer sortedStats={sortedStats} currentList={props.currentList} sortName={props.sortName}></TeamsContainer>) : null}
                 </div>
             </div>
         );
